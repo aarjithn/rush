@@ -171,7 +171,8 @@
      */
     "allowedEmailRegExps": [
       "[^@]+@users\\.noreply\\.github\\.com",
-      "rush-bot@example\\.org"
+      "rush-bot@example\\.org",
+      "aarjithn@gmail.com"
     ],
 
     /**
@@ -420,6 +421,7 @@
       "packageName": "my-controls",
       "projectFolder": "libraries/my-controls",
       "reviewCategory": "production",
+      "shouldPublish": true,
       "tags": [ "frontend-team" ]
     },
 
@@ -427,6 +429,7 @@
       "packageName": "my-toolchain",
       "projectFolder": "tools/my-toolchain",
       "reviewCategory": "tools",
+      "shouldPublish": true,
       "tags": [ "tools" ]
     }
   ]
